@@ -10,7 +10,7 @@ class amazon_productfind_pages:
 
     def open_amazon_page(self):
         self.page.goto("https://www.amazon.in")
-        self.page.reload()
+        self.page.reload()  ###########################
 
         # if self.page.get_by_role("button", name="Continue shopping").is_visible():
         #     self.page.click()
